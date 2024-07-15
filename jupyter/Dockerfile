@@ -4,4 +4,5 @@ FROM quay.io/jupyter/base-notebook
 RUN mamba install --yes \
     'mlflow' \
     'scikit-learn' \
-    'polars'
+    'polars' \
+    'pyenv'
